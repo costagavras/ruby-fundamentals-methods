@@ -7,9 +7,10 @@ getTempFahr = gets.to_i
 
 def f_to_c(tempFahr)
 
-  puts "In Celsius this corresponds to #{(tempFahr - 32) * 5 / 9} degrees"
-  
-  return (tempFahr - 32) * 5 / 9
+  answer_in_Celsius = (tempFahr - 32) * 5 / 9
+  puts "In Celsius this corresponds to #{answer_in_Celsius} degrees"
+
+  return answer_in_Celsius
 
 end
 
